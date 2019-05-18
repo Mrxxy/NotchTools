@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/Mrxxy/NotchTools.svg)](https://jitpack.io/#Mrxxy/NotchTools)
+
 ![image](http://upload-images.jianshu.io/upload_images/1342432-256fcfc6b347c68d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 # 1、概述
 
