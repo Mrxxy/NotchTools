@@ -8,7 +8,7 @@
 1、对国内四大厂商（华为、小米、OPPO、VIVO）对Android O 版本刘海屏的适配方案进行介绍；
 2、对Android P版本的刘海屏进行适配；
 3、提出对Android O 版本刘海屏的通用解决方案，包括全屏占用刘海屏、全屏不占用刘海屏两种情况；
-4、提出适配工具[NotchTools](https://github.com/zhangzhun132/NotchTools/tree/master)解决方案，让你的应用简单快捷的适配全面屏
+4、提出适配工具解决方案，让你的应用简单快捷的适配全面屏
 
 # 2、适配与未适配的效果对比
 因为相比普通常规手机而言，刘海屏顶部中间会突出一块刘海区域，所以会在给Actiivty设置全屏Flag的时候有一些不同。本文所涉及到的刘海屏适配都是在给Activity的window设置SYSTEM_UI_FLAG_FULLSCREEN（全屏flag）前提下的，在显示状态栏的情况下（不管是状态栏透明或者不透明），不是本文讨论的核心，我们的所说的刘海屏适配只是针对全屏沉浸式（状态栏隐藏）的情况下。
@@ -651,11 +651,7 @@ BaseActivity内部重载了setContentView(int layoutResID)方法，在layoutResI
 
 题外话：对于Android O上的各大产商提供的适配方案，有的厂商在官网上明确说明了会在Android P上进行兼容，也就是O的适配方案依然在未来的P机型上可行。但是有的厂商已经在官网明确说明了在未来的Android P上不会兼容O的适配方案，所以，适配还是任重而道远。
 
-有问题随时微信联系，微信号：gold_soldier
-顺便骗个star: [NotchTools  源码地址](https://github.com/zhangzhun132/NotchTools/tree/master)
 
-
-
-![有问题或改建方案微信联系](https://upload-images.jianshu.io/upload_images/1342432-34f4f6ffeb8e798c.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![参考](https://upload-images.jianshu.io/upload_images/1342432-34f4f6ffeb8e798c.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 

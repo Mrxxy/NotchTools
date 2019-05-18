@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.geek.notchtools.MainActivity">
+    tools:context="com.geek.Mrxxy.notchtools.MainActivity">
 
 
     <Button

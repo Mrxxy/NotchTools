@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.geek.notchtools">
+    package="com.github.Mrxxy.notchtools">
 
     <application
         android:allowBackup="true"
