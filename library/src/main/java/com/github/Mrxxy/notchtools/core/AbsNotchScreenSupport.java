@@ -1,4 +1,4 @@
-package com.github.Mrxxy.notchtools.core;
+package com.github.mrxxy.notchtools.core;
 
 import android.app.Activity;
 import android.view.Window;

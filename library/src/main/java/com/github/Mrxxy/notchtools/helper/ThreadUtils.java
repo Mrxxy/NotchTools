@@ -1,4 +1,4 @@
-package com.github.Mrxxy.notchtools.helper;
+package com.github.mrxxy.notchtools.helper;
 
 import android.content.Context;
 import android.os.Handler;

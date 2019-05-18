@@ -1,4 +1,4 @@
-package com.github.Mrxxy.notchtools.core;
+package com.github.mrxxy.notchtools.core;
 
 
 public class NotchProperty {

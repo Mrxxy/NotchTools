@@ -1,24 +1,23 @@
-package com.github.Mrxxy.notchtools.phone;
+package com.github.mrxxy.notchtools.phone;
+
 
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
 import android.provider.Settings;
-
-import androidx.annotation.RequiresApi;
-
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.github.Mrxxy.notchtools.core.AbsNotchScreenSupport;
-import com.github.Mrxxy.notchtools.core.OnNotchCallBack;
+import androidx.annotation.RequiresApi;
+
+import com.github.mrxxy.notchtools.core.AbsNotchScreenSupport;
+import com.github.mrxxy.notchtools.core.OnNotchCallBack;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 
 /**
  * https://devcenter-test.huawei.com/consumer/cn/devservice/doc/50114

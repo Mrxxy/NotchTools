@@ -1,16 +1,15 @@
-package com.github.Mrxxy.notchtools.phone;
+package com.github.mrxxy.notchtools.phone;
+
 
 import android.app.Activity;
 import android.os.Build;
+import android.view.Window;
 
 import androidx.annotation.RequiresApi;
 
-import android.view.Window;
-
-import com.github.Mrxxy.notchtools.core.AbsNotchScreenSupport;
-import com.github.Mrxxy.notchtools.core.OnNotchCallBack;
-import com.github.Mrxxy.notchtools.helper.NotchStatusBarUtils;
-
+import com.github.mrxxy.notchtools.core.AbsNotchScreenSupport;
+import com.github.mrxxy.notchtools.core.OnNotchCallBack;
+import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
 
 /**
  * https://open.oppomobile.com/service/message/detail?id=61876

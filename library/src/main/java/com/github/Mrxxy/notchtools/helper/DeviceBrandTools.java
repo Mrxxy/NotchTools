@@ -1,4 +1,4 @@
-package com.github.Mrxxy.notchtools.helper;
+package com.github.mrxxy.notchtools.helper;
 
 import android.os.Build;
 import android.text.TextUtils;
@@ -52,6 +52,6 @@ public class DeviceBrandTools {
     }
 
     private String getSystemProperty(String propName) {
-        return SystemProperties.getInstance().get(propName);
+        return com.github.Mrxxy.notchtools.helper.SystemProperties.getInstance().get(propName);
     }
 }

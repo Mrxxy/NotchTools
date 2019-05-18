@@ -1,4 +1,4 @@
-package com.github.Mrxxy.notchtools.core;
+package com.github.mrxxy.notchtools.core;
 
 /**
  * 刘海适配回调接口

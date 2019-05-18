@@ -1,17 +1,17 @@
-package com.github.Mrxxy.notchtools.phone;
+package com.github.mrxxy.notchtools.phone;
+
 
 import android.app.Activity;
-
-import androidx.annotation.RequiresApi;
-
 import android.view.DisplayCutout;
 import android.view.Window;
 import android.view.WindowInsets;
 import android.view.WindowManager;
 
-import com.github.Mrxxy.notchtools.core.AbsNotchScreenSupport;
-import com.github.Mrxxy.notchtools.core.OnNotchCallBack;
-import com.github.Mrxxy.notchtools.helper.NotchStatusBarUtils;
+import androidx.annotation.RequiresApi;
+
+import com.github.mrxxy.notchtools.core.AbsNotchScreenSupport;
+import com.github.mrxxy.notchtools.core.OnNotchCallBack;
+import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
 
 /**
  * targetApi>=28才能使用API，有的手机厂商在P上会放弃O适配方案，暂时针对P手机不做特殊处理

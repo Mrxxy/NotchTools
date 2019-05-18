@@ -1,11 +1,11 @@
-package com.github.Mrxxy.notchtools.phone;
+package com.github.mrxxy.notchtools.phone;
+
 
 import android.app.Activity;
 import android.view.Window;
 
-import com.github.Mrxxy.notchtools.core.AbsNotchScreenSupport;
-import com.github.Mrxxy.notchtools.core.OnNotchCallBack;
-
+import com.github.mrxxy.notchtools.core.AbsNotchScreenSupport;
+import com.github.mrxxy.notchtools.core.OnNotchCallBack;
 
 /**
  * @author zhangzhun

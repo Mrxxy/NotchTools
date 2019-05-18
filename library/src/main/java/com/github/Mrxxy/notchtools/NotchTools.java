@@ -1,20 +1,21 @@
-package com.github.Mrxxy.notchtools;
+package com.github.mrxxy.notchtools;
+
 
 import android.app.Activity;
 import android.os.Build;
 import android.view.Window;
 
-import com.github.Mrxxy.notchtools.core.INotchSupport;
-import com.github.Mrxxy.notchtools.core.OnNotchCallBack;
-import com.github.Mrxxy.notchtools.helper.DeviceBrandTools;
-import com.github.Mrxxy.notchtools.helper.NotchStatusBarUtils;
-import com.github.Mrxxy.notchtools.helper.ThreadUtils;
-import com.github.Mrxxy.notchtools.phone.CommonScreen;
-import com.github.Mrxxy.notchtools.phone.HuaWeiNotchScreen;
-import com.github.Mrxxy.notchtools.phone.MiuiNotchScreen;
-import com.github.Mrxxy.notchtools.phone.OppoNotchScreen;
-import com.github.Mrxxy.notchtools.phone.PVersionNotchScreen;
-import com.github.Mrxxy.notchtools.phone.VivoNotchScreen;
+import com.github.mrxxy.notchtools.core.INotchSupport;
+import com.github.mrxxy.notchtools.core.OnNotchCallBack;
+import com.github.mrxxy.notchtools.helper.DeviceBrandTools;
+import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
+import com.github.mrxxy.notchtools.helper.ThreadUtils;
+import com.github.mrxxy.notchtools.phone.CommonScreen;
+import com.github.mrxxy.notchtools.phone.HuaWeiNotchScreen;
+import com.github.mrxxy.notchtools.phone.MiuiNotchScreen;
+import com.github.mrxxy.notchtools.phone.OppoNotchScreen;
+import com.github.mrxxy.notchtools.phone.PVersionNotchScreen;
+import com.github.mrxxy.notchtools.phone.VivoNotchScreen;
 
 /**
  * 适配全面屏入口，在Activity的onCreate方法中使用FullScreenTools.fullScreenNonUseStatus()完成适配
