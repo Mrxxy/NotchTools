@@ -1,4 +1,4 @@
-package com.geek.Mrxxy.notchtools;
+package com.github.mrxxy.notchtools;
 
 
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.widget.FrameLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.Mrxxy.notchtools.NotchTools;
-import com.github.Mrxxy.notchtools.R;
+import com.github.mrxxy.notchtools.R;
 
 
 public class BaseActivity extends AppCompatActivity {

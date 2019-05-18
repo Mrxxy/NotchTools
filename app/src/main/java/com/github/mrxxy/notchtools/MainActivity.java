@@ -1,11 +1,13 @@
-package com.geek.Mrxxy.notchtools;
+package com.github.mrxxy.notchtools;
 
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 
-import com.github.Mrxxy.notchtools.R;
+import com.github.mrxxy.notchtools.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
