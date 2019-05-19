@@ -1,12 +1,9 @@
 package com.github.mrxxy.notchtools;
 
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
-import com.github.Mrxxy.notchtools.NotchTools;
-import com.github.mrxxy.notchtools.R;
-
 
 public class FullScreenNoUseNotchActivity extends BaseActivity {
 

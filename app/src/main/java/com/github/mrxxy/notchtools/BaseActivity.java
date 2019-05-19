@@ -6,10 +6,6 @@ import android.widget.FrameLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.github.Mrxxy.notchtools.NotchTools;
-import com.github.mrxxy.notchtools.R;
-
-
 public class BaseActivity extends AppCompatActivity {
 
     /**
