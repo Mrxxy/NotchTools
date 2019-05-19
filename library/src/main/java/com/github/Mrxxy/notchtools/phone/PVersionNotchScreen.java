@@ -15,11 +15,7 @@ import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
 
 /**
  * targetApi>=28才能使用API，有的手机厂商在P上会放弃O适配方案，暂时针对P手机不做特殊处理
- *
- * @author zhangzhun
- * @date 2018/11/5
  */
-
 public class PVersionNotchScreen extends AbsNotchScreenSupport {
 
     @RequiresApi(api = 28)

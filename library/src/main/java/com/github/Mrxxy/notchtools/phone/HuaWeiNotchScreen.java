@@ -21,9 +21,6 @@ import java.lang.reflect.Method;
 
 /**
  * https://devcenter-test.huawei.com/consumer/cn/devservice/doc/50114
- *
- * @author zhangzhun
- * @date 2018/11/4
  */
 public class HuaWeiNotchScreen extends AbsNotchScreenSupport {
     private static final String DISPLAY_NOTCH_STATUS = "display_notch_status";

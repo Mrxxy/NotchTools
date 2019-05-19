@@ -13,9 +13,6 @@ import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
 
 /**
  * https://open.oppomobile.com/service/message/detail?id=61876
- *
- * @author zhangzhun
- * @date 2018/11/4
  */
 public class OppoNotchScreen extends AbsNotchScreenSupport {
 

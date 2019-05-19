@@ -18,8 +18,6 @@ import java.lang.reflect.Method;
 
 /**
  * https://dev.mi.com/console/doc/detail?pId=1293
- * @author zhangzhun
- * @date 2018/11/4
  */
 public class MiuiNotchScreen extends AbsNotchScreenSupport {
 
@@ -62,6 +60,7 @@ public class MiuiNotchScreen extends AbsNotchScreenSupport {
      * 0x00000100 | 0x00000200 竖屏绘制到耳朵区
      * 0x00000100 | 0x00000400 横屏绘制到耳朵区
      * 0x00000100 | 0x00000200 | 0x00000400 横竖屏都绘制到耳朵区
+     *
      * @param activity
      */
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -87,6 +86,7 @@ public class MiuiNotchScreen extends AbsNotchScreenSupport {
      * 0x00000100 | 0x00000200 竖屏绘制到耳朵区
      * 0x00000100 | 0x00000400 横屏绘制到耳朵区
      * 0x00000100 | 0x00000200 | 0x00000400 横竖屏都绘制到耳朵区
+     *
      * @param activity
      */
     @Override
@@ -112,11 +112,12 @@ public class MiuiNotchScreen extends AbsNotchScreenSupport {
      * 具体表现是：系统会强制盖黑状态栏（无视应用的Notch使用声明）
      * 视觉上达到隐藏刘海的效果。但会给某些应用带来适配问题（控件/内容遮挡或过于靠边等）。
      * 因此开发者在适配时，还需要检查开启“隐藏屏幕刘海”后，应用的页面是否显示正常。
+     *
      * @param activity
      * @return
      */
     private boolean isHideNotch(Context activity) {
-       return Settings.Global.getInt(activity.getContentResolver(),
-               "force_black", 0) == 1;
+        return Settings.Global.getInt(activity.getContentResolver(),
+                "force_black", 0) == 1;
     }
 }

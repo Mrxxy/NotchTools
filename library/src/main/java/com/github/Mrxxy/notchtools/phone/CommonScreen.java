@@ -7,10 +7,6 @@ import android.view.Window;
 import com.github.mrxxy.notchtools.core.AbsNotchScreenSupport;
 import com.github.mrxxy.notchtools.core.OnNotchCallBack;
 
-/**
- * @author zhangzhun
- * @date 2018/11/5
- */
 
 public class CommonScreen extends AbsNotchScreenSupport {
 

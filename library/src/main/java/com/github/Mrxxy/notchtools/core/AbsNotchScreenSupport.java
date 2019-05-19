@@ -3,7 +3,7 @@ package com.github.mrxxy.notchtools.core;
 import android.app.Activity;
 import android.view.Window;
 
-import com.github.Mrxxy.notchtools.helper.NotchStatusBarUtils;
+import com.github.mrxxy.notchtools.helper.NotchStatusBarUtils;
 
 
 public abstract class AbsNotchScreenSupport implements INotchSupport {

@@ -1,5 +1,6 @@
 package com.github.mrxxy.notchtools.helper;
 
+
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
@@ -8,8 +9,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.github.Mrxxy.notchtools.NotchTools;
-
+import com.github.mrxxy.notchtools.NotchTools;
 
 public class NotchStatusBarUtils {
 

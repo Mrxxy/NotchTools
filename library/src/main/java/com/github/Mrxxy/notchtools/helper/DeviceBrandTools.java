@@ -52,6 +52,6 @@ public class DeviceBrandTools {
     }
 
     private String getSystemProperty(String propName) {
-        return com.github.Mrxxy.notchtools.helper.SystemProperties.getInstance().get(propName);
+        return SystemProperties.getInstance().get(propName);
     }
 }

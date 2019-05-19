@@ -17,9 +17,6 @@ import java.lang.reflect.Method;
 /**
  * https://dev.vivo.com.cn/documentCenter/doc/103
  * Vivo手机的适配（木有适配规则~~o(>_<)o ~~，在FullScreen Flag下永远都是在刘海下面~）
- *
- * @author zhangzhun
- * @date 2018/11/4
  */
 public class VivoNotchScreen extends AbsNotchScreenSupport {
 
